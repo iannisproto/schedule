@@ -9,10 +9,18 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
             background-image: url('Schedule.png'); /* Replace with your image file name */
-            background-size: cover; /* Cover the entire viewport */
+            background-size: contain; /* Scale the image to fit within the viewport */
             background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Prevent repeating */
+        }
+
+        /* Optional: Adjust styles for smaller screens */
+        @media (max-width: 600px) {
+            body {
+                background-size: cover; /* Change to cover on smaller screens if desired */
+            }
         }
     </style>
 </head>
