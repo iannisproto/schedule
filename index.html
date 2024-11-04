@@ -2,31 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Schedule</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            background-image: url('bg_schedule.png'); /* Background image for the entire site */
-            background-size: cover; /* Cover the entire background */
-            background-position: center; /* Center the background */
-            background-repeat: no-repeat; /* Prevent repeating */
-            display: flex; /* Use flexbox to center the content */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
+            background-image: url('bg_schedule.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        body {
+            background-image: none;
         }
 
         img {
-            max-width: 100%; /* Set maximum width to 80% of the viewport */
-            max-height: 100%; /* Set maximum height to 80% of the viewport */
-            height: auto; /* Maintain aspect ratio */
-            width: auto; /* Maintain aspect ratio */
+            max-width: 90%;
+            max-height: 90%;
+            height: auto;
+            width: auto;
         }
     </style>
 </head>
 <body>
-    <img src="bare_schedule.png" alt="Schedule" />
+    <img src="bare_schedule.png" alt="Schedule"/>
 </body>
 </html>
